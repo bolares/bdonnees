@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+    <link rel="stylesheet" href="style.css">
+    <title>Base de données</title>
+   
+</head>
+<div class = "container">
+<body>
+    <nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+        <div class="w3-container">
+          <h3 class="w3-padding-64"><b>Formation<br>Base de Données</b></h3>
+        </div>
+        <div class="w3-bar-block">
+          <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Acceuil</a> 
+          <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Pratique</a>
+          <ul>
+            <li><a href="cassandra.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Cassandra</a></li>
+            <li><a href="mongodb.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MongoDB</a></li>
+            <li><a href="oracledb.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Oracle Database</a></li>
+            <li><a href="postgre.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">PostgreSQL</a></li>
+            <li><a href="mariadb.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MariaDB</a></li>
+            <li><a href="mysql.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">MySQL</a></li>
+            <li><a href="sqlite.html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">SQLite</a></li>
+          </ul>
+          
+          <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+        </div>
+    </nav>
+    
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1 class="w3-jumbo"><b>Formation Base de Données</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Gratuite</b></h1>
+    <!-- <hr style="width:50px;border:5px solid rgb(79, 53, 138)" class="w3-round"> -->
+  </div>
+    <!-- <header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+        <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+        <span>Formation Base de Données</span>
+    </header> -->
+    <div class = "container">
+        <h1>SYSTEME DE GESTION DE BASE DONNEES</h1>
+    </div>
+        <P>Nous apprendrons en theorie et en pratique ce que c'est que les systeme de gestion de base de données.</P>
+    <h2>DEFINITION SGBD</h2>
+            <div class = "container">
+            <p>Un Système de Gestion de Base de Données (SGBD) est un logiciel qui permet de stocker des informations dans une base de données. Un tel système permet de lire, écrire, modifier, trier, transformer ou même imprimer les données qui sont contenus dans la base de données.
+            Parmi les logiciels les plus connus il est possible de citer : MySQL, PostgreSQL, SQLite, Oracle Database, Microsoft SQL Server, Firebird ou Ingres.
+            </P>
+            </div>
+
+    <h2>LES CATEGORIES DE SGBD ET QUELQUES EXENPLES</h2>
+        <div class = "container" style = "text-align: left">
+        <UL>
+            <LI> Système propriétaire : Oracle Database, Microsoft SQL Server, DB2, MaxDB, 4D, dBase, Informix, Sybase Système libre MySQL, PostgreSQL, MariaDB, Firebird, Ingres, HSQLDB, Derby, Apache Derby
+            <LI> Orienté objet : ZODB, db4o
+            <LI> Embarqué : SQLite, Berkeley DB
+            <LI> NoSQL : Cassandra, Redis, MongoDB, SimpleDB, BigTable, CouchDB, Couchbase, HBase, LevelDB, RethinkDB, Memcached
+            <LI> Autre système : Access, OpenOffice.org Base, FileMaker, HyperFileSQL, Paradox, Neo4j, Riak, Voldemort
+        </UL>
+        </div>
+
+    <h2>SQL & NoSQL</h2>
+    <p>
+        Les bases de données SQL sont des bases de données basées sur des tables tandis que les bases de données NoSQL sont des bases de données basées sur des paires clé-valeur, des bases de données graphiques, etc. Cela signifie que les bases de données SQL représentent des données sous la forme de tables composées de n nombre de lignes de données, tandis que les bases de données NoSQL sont la collection de paires clé-valeur, de documents, de bases de données graphiques, etc.
+    </p>
+
+    
+</body>
+</div>
+<footer>Merci pour la visite.</footer>
+</html>
